@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BDA5E22147DF04000C5915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDA5E12147DF04000C5915 /* AppDelegate.m */; };
+		18BDA5E52147DF04000C5915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDA5E42147DF04000C5915 /* ViewController.m */; };
+		18BDA5E82147DF04000C5915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA5E62147DF04000C5915 /* Main.storyboard */; };
+		18BDA5EA2147DF04000C5915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA5E92147DF04000C5915 /* Assets.xcassets */; };
+		18BDA5ED2147DF04000C5915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA5EB2147DF04000C5915 /* LaunchScreen.storyboard */; };
+		18BDA5F02147DF04000C5915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDA5EF2147DF04000C5915 /* main.m */; };
+		18BDA5FA2147DF04000C5915 /* MDHPlayerControlViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDA5F92147DF04000C5915 /* MDHPlayerControlViewTests.m */; };
+		18BDA6052147DF04000C5915 /* MDHPlayerControlViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDA6042147DF04000C5915 /* MDHPlayerControlViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BDA5F62147DF04000C5915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BDA5D52147DF04000C5915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BDA5DC2147DF04000C5915;
+			remoteInfo = MDHPlayerControlView;
+		};
+		18BDA6012147DF04000C5915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BDA5D52147DF04000C5915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BDA5DC2147DF04000C5915;
+			remoteInfo = MDHPlayerControlView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BDA5DD2147DF04000C5915 /* MDHPlayerControlView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDHPlayerControlView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDA5E02147DF04000C5915 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18BDA5E12147DF04000C5915 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18BDA5E32147DF04000C5915 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18BDA5E42147DF04000C5915 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18BDA5E72147DF04000C5915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BDA5E92147DF04000C5915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BDA5EC2147DF04000C5915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BDA5EE2147DF04000C5915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BDA5EF2147DF04000C5915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BDA5F52147DF04000C5915 /* MDHPlayerControlViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDHPlayerControlViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDA5F92147DF04000C5915 /* MDHPlayerControlViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDHPlayerControlViewTests.m; sourceTree = "<group>"; };
+		18BDA5FB2147DF04000C5915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BDA6002147DF04000C5915 /* MDHPlayerControlViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDHPlayerControlViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDA6042147DF04000C5915 /* MDHPlayerControlViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDHPlayerControlViewUITests.m; sourceTree = "<group>"; };
+		18BDA6062147DF04000C5915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BDA5DA2147DF04000C5915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDA5F22147DF04000C5915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDA5FD2147DF04000C5915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BDA5D42147DF04000C5915 = {
+			isa = PBXGroup;
+			children = (
+				18BDA5DF2147DF04000C5915 /* MDHPlayerControlView */,
+				18BDA5F82147DF04000C5915 /* MDHPlayerControlViewTests */,
+				18BDA6032147DF04000C5915 /* MDHPlayerControlViewUITests */,
+				18BDA5DE2147DF04000C5915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BDA5DE2147DF04000C5915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BDA5DD2147DF04000C5915 /* MDHPlayerControlView.app */,
+				18BDA5F52147DF04000C5915 /* MDHPlayerControlViewTests.xctest */,
+				18BDA6002147DF04000C5915 /* MDHPlayerControlViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BDA5DF2147DF04000C5915 /* MDHPlayerControlView */ = {
+			isa = PBXGroup;
+			children = (
+				18BDA5E02147DF04000C5915 /* AppDelegate.h */,
+				18BDA5E12147DF04000C5915 /* AppDelegate.m */,
+				18BDA5E32147DF04000C5915 /* ViewController.h */,
+				18BDA5E42147DF04000C5915 /* ViewController.m */,
+				18BDA5E62147DF04000C5915 /* Main.storyboard */,
+				18BDA5E92147DF04000C5915 /* Assets.xcassets */,
+				18BDA5EB2147DF04000C5915 /* LaunchScreen.storyboard */,
+				18BDA5EE2147DF04000C5915 /* Info.plist */,
+				18BDA5EF2147DF04000C5915 /* main.m */,
+			);
+			path = MDHPlayerControlView;
+			sourceTree = "<group>";
+		};
+		18BDA5F82147DF04000C5915 /* MDHPlayerControlViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BDA5F92147DF04000C5915 /* MDHPlayerControlViewTests.m */,
+				18BDA5FB2147DF04000C5915 /* Info.plist */,
+			);
+			path = MDHPlayerControlViewTests;
+			sourceTree = "<group>";
+		};
+		18BDA6032147DF04000C5915 /* MDHPlayerControlViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BDA6042147DF04000C5915 /* MDHPlayerControlViewUITests.m */,
+				18BDA6062147DF04000C5915 /* Info.plist */,
+			);
+			path = MDHPlayerControlViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BDA5DC2147DF04000C5915 /* MDHPlayerControlView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDA6092147DF04000C5915 /* Build configuration list for PBXNativeTarget "MDHPlayerControlView" */;
+			buildPhases = (
+				18BDA5D92147DF04000C5915 /* Sources */,
+				18BDA5DA2147DF04000C5915 /* Frameworks */,
+				18BDA5DB2147DF04000C5915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDHPlayerControlView;
+			productName = MDHPlayerControlView;
+			productReference = 18BDA5DD2147DF04000C5915 /* MDHPlayerControlView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BDA5F42147DF04000C5915 /* MDHPlayerControlViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDA60C2147DF04000C5915 /* Build configuration list for PBXNativeTarget "MDHPlayerControlViewTests" */;
+			buildPhases = (
+				18BDA5F12147DF04000C5915 /* Sources */,
+				18BDA5F22147DF04000C5915 /* Frameworks */,
+				18BDA5F32147DF04000C5915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BDA5F72147DF04000C5915 /* PBXTargetDependency */,
+			);
+			name = MDHPlayerControlViewTests;
+			productName = MDHPlayerControlViewTests;
+			productReference = 18BDA5F52147DF04000C5915 /* MDHPlayerControlViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BDA5FF2147DF04000C5915 /* MDHPlayerControlViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDA60F2147DF04000C5915 /* Build configuration list for PBXNativeTarget "MDHPlayerControlViewUITests" */;
+			buildPhases = (
+				18BDA5FC2147DF04000C5915 /* Sources */,
+				18BDA5FD2147DF04000C5915 /* Frameworks */,
+				18BDA5FE2147DF04000C5915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BDA6022147DF04000C5915 /* PBXTargetDependency */,
+			);
+			name = MDHPlayerControlViewUITests;
+			productName = MDHPlayerControlViewUITests;
+			productReference = 18BDA6002147DF04000C5915 /* MDHPlayerControlViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BDA5D52147DF04000C5915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "马大哈";
+				TargetAttributes = {
+					18BDA5DC2147DF04000C5915 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					18BDA5F42147DF04000C5915 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18BDA5DC2147DF04000C5915;
+					};
+					18BDA5FF2147DF04000C5915 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18BDA5DC2147DF04000C5915;
+					};
+				};
+			};
+			buildConfigurationList = 18BDA5D82147DF04000C5915 /* Build configuration list for PBXProject "MDHPlayerControlView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BDA5D42147DF04000C5915;
+			productRefGroup = 18BDA5DE2147DF04000C5915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BDA5DC2147DF04000C5915 /* MDHPlayerControlView */,
+				18BDA5F42147DF04000C5915 /* MDHPlayerControlViewTests */,
+				18BDA5FF2147DF04000C5915 /* MDHPlayerControlViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BDA5DB2147DF04000C5915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDA5ED2147DF04000C5915 /* LaunchScreen.storyboard in Resources */,
+				18BDA5EA2147DF04000C5915 /* Assets.xcassets in Resources */,
+				18BDA5E82147DF04000C5915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDA5F32147DF04000C5915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDA5FE2147DF04000C5915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BDA5D92147DF04000C5915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDA5E52147DF04000C5915 /* ViewController.m in Sources */,
+				18BDA5F02147DF04000C5915 /* main.m in Sources */,
+				18BDA5E22147DF04000C5915 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDA5F12147DF04000C5915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDA5FA2147DF04000C5915 /* MDHPlayerControlViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDA5FC2147DF04000C5915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDA6052147DF04000C5915 /* MDHPlayerControlViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BDA5F72147DF04000C5915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BDA5DC2147DF04000C5915 /* MDHPlayerControlView */;
+			targetProxy = 18BDA5F62147DF04000C5915 /* PBXContainerItemProxy */;
+		};
+		18BDA6022147DF04000C5915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BDA5DC2147DF04000C5915 /* MDHPlayerControlView */;
+			targetProxy = 18BDA6012147DF04000C5915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BDA5E62147DF04000C5915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BDA5E72147DF04000C5915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BDA5EB2147DF04000C5915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BDA5EC2147DF04000C5915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BDA6072147DF04000C5915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BDA6082147DF04000C5915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BDA60A2147DF04000C5915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDHPlayerControlView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hfeducation.MDHPlayerControlView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BDA60B2147DF04000C5915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDHPlayerControlView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hfeducation.MDHPlayerControlView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18BDA60D2147DF04000C5915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDHPlayerControlViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hfeducation.MDHPlayerControlViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDHPlayerControlView.app/MDHPlayerControlView";
+			};
+			name = Debug;
+		};
+		18BDA60E2147DF04000C5915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDHPlayerControlViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hfeducation.MDHPlayerControlViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDHPlayerControlView.app/MDHPlayerControlView";
+			};
+			name = Release;
+		};
+		18BDA6102147DF04000C5915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDHPlayerControlViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hfeducation.MDHPlayerControlViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDHPlayerControlView;
+			};
+			name = Debug;
+		};
+		18BDA6112147DF04000C5915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDHPlayerControlViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hfeducation.MDHPlayerControlViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDHPlayerControlView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BDA5D82147DF04000C5915 /* Build configuration list for PBXProject "MDHPlayerControlView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDA6072147DF04000C5915 /* Debug */,
+				18BDA6082147DF04000C5915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDA6092147DF04000C5915 /* Build configuration list for PBXNativeTarget "MDHPlayerControlView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDA60A2147DF04000C5915 /* Debug */,
+				18BDA60B2147DF04000C5915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDA60C2147DF04000C5915 /* Build configuration list for PBXNativeTarget "MDHPlayerControlViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDA60D2147DF04000C5915 /* Debug */,
+				18BDA60E2147DF04000C5915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDA60F2147DF04000C5915 /* Build configuration list for PBXNativeTarget "MDHPlayerControlViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDA6102147DF04000C5915 /* Debug */,
+				18BDA6112147DF04000C5915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BDA5D52147DF04000C5915 /* Project object */;
+}
